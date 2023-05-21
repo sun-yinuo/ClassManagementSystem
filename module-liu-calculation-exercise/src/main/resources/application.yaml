@@ -1,0 +1,15 @@
+server:
+  port: 6000
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ClassManagementSystem
+    username: root
+    password: MysqlSunyinuo15332#
+  application:
+    name: module-liu-calculation-exercise
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
